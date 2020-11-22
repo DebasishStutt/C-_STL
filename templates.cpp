@@ -15,8 +15,10 @@ class Container {
 int main () {
 
 Container<int> i(100);
+Container<std::string> s = Container<std::string>("Super Cool!");
 
-std::cout << i;
+std::cout << i << std::endl;
+  std::cout << s << std::endl;
 
 return 0;
 }
